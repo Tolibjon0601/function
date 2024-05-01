@@ -17,27 +17,27 @@
 // console.log(find_prime(35));
 // 21-misol
 
-function FindOddNumber(n) {
-  let toqRaqamMavjud = false;
+// function FindOddNumber(n) {
+//   let toqRaqamMavjud = false;
 
-  while (n > 0) {
-    let raqam = n % 10;
-    if (raqam % 2 !== 0) {
-      toqRaqamMavjud = true;
-      break;
-    }
-    n = Math.floor(n / 10);
-  }
+//   while (n > 0) {
+//     let raqam = n % 10;
+//     if (raqam % 2 !== 0) {
+//       toqRaqamMavjud = true;
+//       break;
+//     }
+//     n = Math.floor(n / 10);
+//   }
 
-  if (toqRaqamMavjud) {
-    return "Sonning ichida toq raqam mavjud";
-  } else {
-    return "Sonning ichida toq raqam yo'q";
-  }
-}
+//   if (toqRaqamMavjud) {
+//     return "Sonning ichida toq raqam mavjud";
+//   } else {
+//     return "Sonning ichida toq raqam yo'q";
+//   }
+// }
 
-let n = prompt("Sonni kiriting: ");
-console.log(FindOddNumber(parseInt(n)));
+// let n = prompt("Sonni kiriting: ");
+// console.log(FindOddNumber(parseInt(n)));
 
 // 20-misol
 
